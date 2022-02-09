@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+i {
+    pointer-events: none;
+}
+
+.container-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    width: 14rem; 
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.BtnJs {
+    color: red;
+    max-width: 30px;
+}
+.toDoList {
+    display: flex;
+    justify-content: center;
+}
